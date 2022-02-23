@@ -4,11 +4,8 @@
     box-sizing: border-box;
     font-family: "Noto Sans KR", sans-serif;
   }
+
   
-  html{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(A.jpg);
-  
-  }
   a {
     text-decoration: none;
     color: black;
@@ -34,7 +31,7 @@
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     flex-direction: column;
     position:absolute;
     
