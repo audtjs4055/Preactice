@@ -1,10 +1,11 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;;
 }
 header{
     height: 220px;
-    /* border: solid 1px red; */
+    border: solid 1px red; 
+  
 }
 #top{
     height: 60px;
@@ -28,7 +29,7 @@ header{
 }
 section{
     height: 600px;
-    /* border: solid 1px red; */
+    border: solid 1px red;
 }
 #box{
     width: 1320px;
@@ -40,17 +41,21 @@ section{
 
 footer{
     height: 200px;
-    /* border: solid 1px yellow; */
+    border: solid 1px yellow; 
 }
 
 #top_logo{
     float: left;
+    border: solid 1px blueviolet;
 }
 
 #top_login{
-    float: left;
-    margin: 24px 0 0 1550px;
+    float: right;
+    /* border: solid 1px black; */
+    margin-right: 13px;
+    margin-top: 24px;
 }
+
 
 a{
     text-decoration: none;
@@ -58,13 +63,13 @@ a{
 }
 
 #logo{
-    /* border: solid 1px blue; */
+    border: solid 1px blue; 
     height: 158px;
     background-color: antiquewhite;
+    
 }
 .box_menu{
-    border: solid 1px black;
-    width: 1320px;
+    border: solid 2px purple;
     height: 50px;
     margin: 0 auto;
 }
@@ -73,7 +78,6 @@ li{list-style: none;}
 ul{padding: 0; margin: 0;}
 
 .bar{
-    width: 1320px;
     overflow: hidden;
     margin-top: 0px;
 }
@@ -120,56 +124,21 @@ transition-duration: 1s;
 
 .info{
     text-align: center;
-    overflow: hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
 }
 
-.product_box{
-    /* border: solid 1px red; */
-    height: 300px;
-    width: 300px;
-    margin-left: 400px;
-    float: left;
-   
-}
-
-.product_box img{
-    height: 300px;
-    width: 300px;
-    
-}
-
-.product_box2{
-    /* border: solid 1px red; */
-    height: 300px;
-    width: 300px;
-    margin-left:100px;
-    float: left;
-}
-.product_box2 img{
-    height: 300px;
-    width: 300px;
-    
-}
-
-.product_box3{
-    /* border: solid 1px red; */
-    height: 300px;
-    width: 300px;
-    margin-left:100px;
-    float: left;
-}
-.product_box3 img{
-    height: 300px;
-    width: 300px;
-    
-}
-
 .pr_box{
-    /* border: solid 1px purple; */
+    border: solid 1px purple; 
     height: 300px;
-    margin-top: 40px;
-    
+    margin: 0 auto; 
 }
+
+.pr_box img{
+    height: 300px;
+    margin-left: 60px;
+
+}
+
+
 

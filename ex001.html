@@ -3,77 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     <title>연습</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        header{
-            height: 220px;
-            border: solid 1px red;
-        }
-        #top{
-            height: 60px;
-            background-color: #eae1d8;
-        }
-        #logo{
-
-        }
-        #main_meun{
-            height: 80px;
-            border-top: solid 1px #e2e2e2;
-            border-bottom: solid 1px #e2e2e2;
-
-        }
-        section{
-            height: 400px;
-            border: solid 1px red;
-        }
-        #box{
-            width: 1320px;
-            height: 300px;
-            border: solid 1px blue;
-            margin: 0 auto;
-
-        }
-
-        footer{
-            height: 300px;
-            border: solid 1px yellow;
-        }
-
-        .box{
-            
-        }
-
+        @import url(ex001.css);
     </style>
+
 </head>
 <body>
 
     <header>
         <div id="top">
-           <div class="box">
-
-           </div>
+            <h2>Moble shop</h2>
         </div>
-        <div id="logo">
-            로고
+        <div id="login">
+            <a href="login.html">로그인</a>  <a href="member.html">회원가입</a>
         </div>
     </header>
 
-    <nav id="main_meun">
-        메인 메뉴
+    <nav>
+        <div id="table">
+            <div id="menu">
+                <ul class="bar">
+                    <li>
+                        <a href="#">아우터</a>
+                        <ul class="submenu">
+                            <li><a href="Coat.html">코트</a></li>
+                            <li><a href="#">패딩</a></li>
+                            <li><a href="#">가디건</a></li>
+                            <li><a href="#">재킷</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">상의</a>
+                        <ul class="submenu">
+                            <li><a href="#">맨투맨</a></li>
+                            <li><a href="#">후드</a></li>
+                            <li><a href="#">니트</a></li>
+                            <li><a href="#">셔츠</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">하의</a>
+                        <ul class="submenu">
+                            <li><a href="#">데님</a></li>
+                            <li><a href="#">숏</a></li>
+                            <li><a href="#">슬랙스</a></li>
+                            <li><a href="#">트레이닝</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">모자</a>
+                        <ul class="submenu1">
+                            <li><a href="#">캡</a></li>
+                            <li><a href="#">비니</a></li>
+                            <li><a href="#">페도라</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">가방</a>
+                        <ul class="submenu">
+                            <li><a href="#">백팩</a></li>
+                            <li><a href="#">메신저백</a></li>
+                            <li><a href="#">클러치백</a></li>
+                            <li><a href="#">캐리어</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
     </nav>
 
-    <section id="">
-        <div id="box">
-            상품목록
-        </div>
+    <section>
+       
+           <div id="start">
+            New Produt
+           </div>
+           <div id="item">
+            <table>
+                <tr>
+                    <td><img src="옷1.jpg"></td>
+                    <td><img src="옷2.jpg"></td>
+                    <td><img src="옷3.jpg"></td>
+                    <td><img src="옷4.jpg"></td>
+                </tr>
+                <tr>
+                    <td>19000원</td>
+                    <td>10000원</td>
+                    <td>13000원</td>
+                    <td>19000원</td>
+                </tr>
+            </table>
+           </div>
+           <div id="item">
+            <table>
+                <tr>
+                    <td><img src="옷5.jpg"></td>
+                    <td><img src="옷6.jpg"></td>
+                    <td><img src="옷7.jpg"></td>
+                    <td><img src="옷8.jpg"></td>
+                </tr>
+                <tr>
+                    <td>19000원</td>
+                    <td>10000원</td>
+                    <td>13000원</td>
+                    <td>19000원</td>
+                </tr>
+            </table>
+           </div>
+
+
+        
     </section>
+
     <footer>
-        하단
+        <div id="number">
+            <p class="a">문의사항 010-1234-5678</p>
+            <p class="b">(주)Moble</p>
+            <p class="b">주소: 충청남도 천안시 동남구 대흥로 255 </p>
+        </div>
+
     </footer>
 </body>
 </html>
