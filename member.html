@@ -8,18 +8,17 @@
     <style type="text/css">
         @import url(member.css);
     </style>
+  
 </head>
-<body style="background-color:rgb(243, 227, 227)">
-    <!-- header -->
-    <div id="header">
-        <a href="MAIN0.01.html" target="_blank"><img src="m.png.gif" id="logo"></a>
-    </div>
-
+<body>
 
     <!-- wrapper -->
     <div id="wrapper">
         <!-- content-->
         <div id="box">
+            <div id="header">
+                <a href="어렵.html" target="_blank"><h2>Moble Shop</h2></a>
+            </div>
             <div id="content">
 
                 <!-- ID -->
@@ -53,6 +52,8 @@
                     <span class="error_next_box"></span>
                 </div>
 
+
+
                 <!-- NAME -->
                 <div>
                     <h3 class="join_title"><label for="name">이름</label></h3>
@@ -62,49 +63,22 @@
                     <span class="error_next_box"></span>
                 </div>
 
-                <!-- BIRTH -->
+
+                <!--adress-->
                 <div>
-                    <h3 class="join_title"><label for="yy">생년월일</label></h3>
-
-                    <div id="bir_wrap">
-                        <!-- BIRTH_YY -->
-                        <div id="bir_yy">
-                            <span class="box">
-                                <input type="text" id="yy" class="int" maxlength="4" placeholder="년(4자)">
-                            </span>
-                        </div>
-
-                        <!-- BIRTH_MM -->
-                        <div id="bir_mm">
-                            <span class="box">
-                                <select id="mm" class="sel">
-                                    <option>월</option>
-                                    <option value="01">1</option>
-                                    <option value="02">2</option>
-                                    <option value="03">3</option>
-                                    <option value="04">4</option>
-                                    <option value="05">5</option>
-                                    <option value="06">6</option>
-                                    <option value="07">7</option>
-                                    <option value="08">8</option>
-                                    <option value="09">9</option>                                    
-                                    <option value="10">10</option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                </select>
-                            </span>
-                        </div>
-
-                        <!-- BIRTH_DD -->
-                        <div id="bir_dd">
-                            <span class="box">
-                                <input type="text" id="dd" class="int" maxlength="2" placeholder="일">
-                            </span>
-                        </div>
-
-                    </div>
-                    <span class="error_next_box"></span>    
+                    <h3 class="join_title">주소</h3>
+                    <input type="text" id="sample4_postcode" placeholder="우편번호">
+                    <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"><br>
+                    <input type="text" id="sample4_roadAddress" placeholder="도로명주소">
+                    <input type="text" id="sample4_jibunAddress" placeholder="지번주소">
+                    <span id="guide" style="color:#999;display:none"></span>
+                    <input type="text" id="sample4_detailAddress" placeholder="상세주소">
+                    <input type="text" id="sample4_extraAddress" placeholder="참고항목">
                 </div>
+
+
+            
+
 
                 <!-- GENDER -->
                 <div>
@@ -120,13 +94,13 @@
                 </div>
 
                 <!-- EMAIL -->
-                <div>
+                <!-- <div>
                     <h3 class="join_title"><label for="email">본인확인 이메일<span class="optional">(선택)</span></label></h3>
                     <span class="box int_email">
                         <input type="text" id="email" class="int" maxlength="100" placeholder="선택입력">
                     </span>
                     <span class="error_next_box">이메일 주소를 다시 확인해주세요.</span>    
-                </div>
+                </div> -->
 
                 <!-- MOBILE -->
                 <div>
@@ -140,7 +114,7 @@
 
                 <!-- JOIN BTN-->
                 <div class="btn_area">
-                    <button type="button" id="btnJoin" onclick="location.href='MAIN0.01.html'">
+                    <button type="button" id="btnJoin" onclick="location.href='ex001.html'">
                         <span>가입하기</span>
                     </button>
                 </div>
@@ -154,6 +128,11 @@
         <!-- wrapper -->
     </div>
 
-<script src="member.js"></script>
+<script src="member.js"> </script>
+<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+
+
+
+
 </body>
 </html>
