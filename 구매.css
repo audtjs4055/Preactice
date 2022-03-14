@@ -25,10 +25,6 @@ header{
     font-size: 36px;
     text-align: center;
     margin-top: 15px;
-<<<<<<< HEAD
-    cursor: pointer;
-=======
->>>>>>> 4e02d0c275b55fcddd0310f396fee253861bc05e
 }
 
 #top img{
@@ -39,11 +35,7 @@ header{
 
 #login{
     height: 30px;
-<<<<<<< HEAD
-    width: 123px;
-=======
     width: 118px;
->>>>>>> 4e02d0c275b55fcddd0310f396fee253861bc05e
     /* border: solid 1px red; */
     float: right;
     margin:67px 20px 0 0;
@@ -54,16 +46,12 @@ header{
 }
 
 nav{
-<<<<<<< HEAD
-    height:700px;
-=======
     height:1100px;
->>>>>>> 4e02d0c275b55fcddd0310f396fee253861bc05e
     /* border:solid 1px blue; */
-    background-image:url(로고.jpg);
+    /* background-image:url(로고.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
    
 }
 
@@ -147,7 +135,17 @@ nav{
     transition-duration: 1s;
 }
 
+#sell{
+    margin-top: 300px;
+    margin-left: 400px;
+    border: solid 1px black;
+}
 
+#sell img{
+    height: 500px;
+    width: 500px;
+    border: solid 1px red;
+}
 
 
 

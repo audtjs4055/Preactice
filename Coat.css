@@ -25,7 +25,10 @@ header{
   font-size: 36px;
   text-align: center;
   margin-top: 15px;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+>>>>>>> 4e02d0c275b55fcddd0310f396fee253861bc05e
 }
 
 #top img{
@@ -47,7 +50,11 @@ header{
 }
 
 nav{
+<<<<<<< HEAD
   height:700px;
+=======
+  height:1100px;
+>>>>>>> 4e02d0c275b55fcddd0310f396fee253861bc05e
   /* border:solid 1px blue; */
   background-image:url(로고.jpg);
   background-repeat: no-repeat;
