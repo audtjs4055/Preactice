@@ -16,10 +16,10 @@
 
     <header>
         <div id="top">
-            <h2 onclick="location.href='ex001.html'">Moble shop</h2>
+            <h2 onclick="location.href='main2.html'">Moble shop</h2>
         </div>
         <div id="login">
-            <a href="ex001.html">로그아웃</a>  <a href="">마이페이지</a>
+            <a href="main.html">로그아웃</a>  <a href="">마이페이지</a>
         </div>
     </header>
 
@@ -81,25 +81,58 @@
         </div>
        
     </nav>
+    
 
     <section>
        <div id="my">
             <h2>My page</h2>
+            <table style="margin-top: 50px; width: 100%;">
+                <th style="height: 50px; text-align: center;">개인정보</th>
+                <th><button id="btn1" type="button" style="margin: auto 0;">수정하기</button></th>
+                
+                <tr>
+                    <td style="width: 333px; text-align: center;">이름</td>
+                    <td style="width: 333px; text-align: center;" id="name">name</td>
+                  
+                </tr>
+                <tr>
+                    <td style="width: 333px; text-align: center;">아이디</td>
+                    <td style="width: 333px; text-align: center;" id="id">qwer1234</td>
+                </tr>
+                <tr>
+                    <td style="width: 333px; text-align: center;">비밀번호</td>
+                    <td style="width:333px; text-align: center;" id="pwd">123456 </td>
+                   
+                </tr>
+                <tr>
+                    <td style="width: 333px; text-align: center;">전화번호</td>
+                    <td style="width:333px; text-align: center;" id="phone">01012341234 </td>
+                
+                </tr>
+                <tr>
+                    <td style="width: 333px; text-align: center;">주소</td>
+                    <td style="width:333px; text-align: center;" id="address">천안시 서북구 두정동 </td>
+                </tr>
+            </table>
+            
+            <table border="1" style="margin: 0 auto; margin-top: 25px; width: 100%;">
+                <th style="height: 50px; width: 200px;">장바구니</th>
+                <th style="width: 800px;">주문내역</th>
+                <th><button type="button" id="btn" style="margin: 0 auto;">삭제</button></th>
+                <tr id="tr">
+                    <td style="width: 200px;"><input type="checkbox" style="margin-left:50%;" id="check"></td>
+                    <td id="/" style="width: 100px; height: 100px;">
+                        <img src="C1.jpg" style="width: 100px; height: 100px; margin-top: 10px;" id="img">
+                       
+                    </td>
+                    
+                </tr>
+                
+            </table>
+            
 
-            <p>이름 <span><input type="text" value="이름" ></span></p>
-            <p>전화번호 <span><input type="text" value="번호" > </span></p>
-            <p>주소 <span><input type="text" value="주소" > </span></p>
-            <p>장바구니</p>
-            <div id="jang"> 
-               <table>
-                   <tr>
-                       <td><input type="checkbox"></td><td><input type="image" src="옷1.jpg" class="img"></td><td><input type="text" value="빅로고 후드티"></td><td><input type="button" value="삭제"></td>
-                   </tr>
-               </table>
-            </div>
        </div>
- 
-
+      
         
     </section>
 
@@ -113,3 +146,4 @@
     </footer>
 </body>
 </html>
+<script src="mypage.js"></script>
